@@ -15,7 +15,7 @@
    justify-content: center;
    align-items: center;
    flex-direction:column ;
-   background:url(/images/2.jpg);
+   background:url(/images/5.jpg);
    background-size: cover;
 }
 
@@ -83,11 +83,13 @@ display: flex;
     width: 40%;
     padding: 40px;
     background: #fff;
+    background:linear-gradient(to top, rgba(247, 239, 239, 0.5)50%,rgba(243, 239, 239, 0.5)50%) ;
+
 
 }
 .contactForm h2{
     font-size: 30px;
-    color:#333;
+    color:rgb(248, 241, 241);
     font-weight: 500;
 
 }
@@ -102,7 +104,7 @@ display: flex;
 .contactForm .inputBox input,
 .contactForm .inputBox  textarea{
 
-    width: 100%;
+    width: 90%;
     padding: 5px 0;
     font-size:16px;
     margin: 10px 0;
@@ -112,8 +114,9 @@ display: flex;
     resize: none;
 }
 
-.contactForm .inputBox span{
+.contactForm .inputBox span {
     position:absolute;
+    left:0;
     padding: 5px 0;
     font-size:16px;
     margin: 10px 0;

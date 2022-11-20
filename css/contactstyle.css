@@ -10,6 +10,7 @@
 .contact{
    position: relative;
    min-height: 100vh;
+ 
    padding: 50px 100px;
    display: flex;
    justify-content: center;
@@ -20,6 +21,8 @@
 }
 
 .contact .content{
+   padding-left: 200px;
+    padding-top: 200px;
     max-width: 800px;
     text-align: center;
 }
@@ -34,6 +37,7 @@
     color: #fff;
 }
 .container{
+    padding-top: 100px;
 
     width: 100%;
     display: flex;
@@ -54,13 +58,13 @@ display: flex;
 
 }
 .container .contactInfo .box .icon{
-    min-width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     background: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 50%;
+    border-radius: 50%;
     font-size: 22px;
 }
 .container .contactInfo .box .text{
@@ -78,6 +82,7 @@ display: flex;
 
     font-weight:500 ;
     color: #00bcd4;
+    padding-top: 5px;
 }
 .contactForm{
     width: 40%;
@@ -161,5 +166,101 @@ display: flex;
     width: 100%;
 }
 
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    margin-top: -550px;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color:#ff7200;
+    font-size: 50px;
+    font-family: Arial,20px;
+    float: left;
+    padding-top: 2px;
+
+}
+.menu{
+
+
+    width: 400PX;
+    float:left;
+    height: 70px;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left:62px ;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+
+    text-decoration: none;
+    color:#fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    font-size: 20px;
+}
+ul li a:hover{
+
+    color:#ff7200;
+}
+.search{
+    width: 330px;
+    float:left;
+    margin-left: 270px;
+
+
+}
+.srch{
+
+font-family: 'Times New Roman';
+width: 200px;
+height: 40px;
+background: transparent;
+border: 1px solid, #ff7200 ;
+margin-top: 13px;
+color:#fff;
+border-right: none;
+font-size: 16px;
+float:left;
+padding:10px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border:2px solid #ff7200;
+    margin-top:13px;
+    color:#fff;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn:focus{
+    outline:none;
+}
+.srch:focus{
+    outline:none;
 }
     

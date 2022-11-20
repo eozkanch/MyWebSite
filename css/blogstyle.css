@@ -13,6 +13,7 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: poppins;
+    background-color: #2779a7;
 }
 #blog{
     display: flex;
@@ -25,6 +26,7 @@ body{
 
 }
 .blog-heading{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,6 +46,7 @@ body{
     align-items: center;
     margin: 20px 0px;
     flex-wrap: wrap;
+  
 
 }
 .blog-box{
@@ -58,8 +61,8 @@ body{
     height: auto;
 }
 .blog-img img{
-    width: 100%;
-    height: 100%;
+    width: 350px;
+    height: 200px;
     object-fit: cover;
     object-position: center;
 }
@@ -101,4 +104,126 @@ margin: 20px 0px;
 .blog-text a:hover{
     color:#f33c3c;
     transition: all ease 0.3s;
+}
+@media(max-width:1250px){
+
+    .blog-box{
+        width: 300px;
+    }
+}
+@media(max-width:1100px){
+    .blog-box{
+        width: 70%;
+
+}
+    
+}
+@media(max-width:550px){
+    .blog-box{
+        margin: 20px 10px;
+        width: 100%;
+        
+}
+#blog{
+    padding: 20px;
+}
+    
+}
+
+
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    padding-top: 40px;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color:#ff7200;
+    font-size: 50px;
+    font-family: Arial,20px;
+    float: left;
+    
+
+}
+.menu{
+
+
+    width: 400PX;
+    float:left;
+    height: 70px;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left:62px ;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+
+    text-decoration: none;
+    color:#fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    font-size: 20px;
+}
+ul li a:hover{
+
+    color:#ff7200;
+}
+.search{
+    width: 330px;
+    float:left;
+    margin-left: 270px;
+
+
+}
+.srch{
+
+font-family: 'Times New Roman';
+width: 200px;
+height: 40px;
+background: transparent;
+border: 1px solid, #ff7200 ;
+margin-top: 13px;
+color:#fff;
+border-right: none;
+font-size: 16px;
+float:left;
+padding:10px;
+border-bottom-left-radius: 5px;
+border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #ff7200;
+    border:2px solid #ff7200;
+    margin-top:13px;
+    color:#fff;
+    font-size: 15px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn:focus{
+    outline:none;
+}
+.srch:focus{
+    outline:none;
 }

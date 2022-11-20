@@ -18,9 +18,11 @@
 }
 
 .navbar{
+    padding-top:  50px;
     width: 1200px;
     height: 75px;
     margin: auto;
+    
 }
 .icon{
     width: 200px;
@@ -54,7 +56,7 @@ ul li{
     list-style: none;
     margin-left:62px ;
     margin-top: 27px;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 ul li a{

@@ -1,6 +1,7 @@
 *{
     margin:0px;
     padding:0px;
+    
 
 }
 
@@ -32,7 +33,7 @@
 .logo{
     color:#ff7200;
     font-size: 50px;
-    font-family: Arial,20px;
+    font-family:  TheSans,sans-serif,20px;
     float: left;
     
 
@@ -44,30 +45,30 @@
     float:left;
     height: 70px;
 }
-ul{
+.menu ul{
     float:left;
     display: flex;
     justify-content: center ;
     align-items: center;
 
 }
-ul li{
+.menu ul li{
     list-style: none;
     margin-left:62px ;
     margin-top: 27px;
     font-size: 14px;
 }
 
-ul li a{
+.menu ul li a{
 
     text-decoration: none;
     color:#fff;
-    font-family: Arial;
+    font-family:  TheSans,sans-serif;
     font-weight: bold;
     transition: 0.4s ease-in-out;
     font-size: 20px;
 }
-ul li a:hover{
+.menu ul li a:hover{
 
     color:#ff7200;
 }
@@ -256,4 +257,95 @@ color:#ff7200
     padding-top: 15px;
     padding-bottom: 10px;
     text-align: center;
+}
+
+footer{
+
+      background-color: #333333;
+    padding:50px 0px;
+    font-family:  TheSans,sans-serif;
+ 
+
+}
+.footer-container{
+  
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
+ 
+  
+}
+
+.footer-heading h3,
+.footer-heading h4{
+    color:#ffffff;
+
+}
+.footer-heading h3{
+
+    font-size: 5rem;
+    margin-top: 20px;
+    font-weight: 200px;
+}
+.footer-heading h4{
+
+    font-size: 2rem;
+    margin-top: 20px;
+    font-weight: 100px;
+    letter-spacing: 1px;
+}
+
+   
+   
+
+.footer-box strong{
+    color:#fff;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+   
+
+}
+.footer-box ul{
+    margin-top: 15px;
+    list-style: none;
+    
+   
+}
+.footer-box ul li,
+.footer-box ul li a{
+    color:#ffffff;
+    font-size: 0.9rem;
+    text-transform: lowercase;
+    opacity: 0.9;
+    padding: 2px 0px;
+    transition: all ease 0.3s;
+    text-decoration: none;
+
+}
+.footer-box ul li{
+    margin:8px 0px;
+   
+
+}
+.footer-content{
+    
+
+    display: flex;
+    justify-content: space-between;
+}
+.footer-box ul li a:hover,
+.footer-box ul li:hover{
+    opacity:0.6;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    width: 980px;
+   margin-left:-50px;
+     color:#fff;
 }

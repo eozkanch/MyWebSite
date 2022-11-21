@@ -25,6 +25,18 @@ body{
 
 
 }
+.menu img{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin: auto;
+    margin-top: -35px;
+    margin-bottom: 10px;
+    
+  
+}
 .blog-heading{
     margin-top: 50px;
     display: flex;

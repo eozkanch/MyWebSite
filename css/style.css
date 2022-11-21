@@ -9,7 +9,7 @@
 
     width: 100%;
     background:linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%) ;
-    background-image: url("/images/3.jpg");
+    background-image: url("/images/1.jpg");
     background-position:center;
     background-size: cover;
     height: 109vh;
@@ -41,9 +41,21 @@
 .menu{
 
 
-    width: 400PX;
+    width: 400px;
     float:left;
     height: 70px;
+}
+.menu img{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin: auto;
+    margin-top: -35px;
+    margin-bottom: 10px;
+    
+  
 }
 .menu ul{
     float:left;
@@ -311,6 +323,11 @@ footer{
     list-style: none;
     
    
+}
+.footer-box img{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
 }
 .footer-box ul li,
 .footer-box ul li a{

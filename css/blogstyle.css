@@ -37,6 +37,144 @@ body{
     
   
 }
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+    padding-top: 40px;
+}
+.icon{
+    margin: auto;
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color:#ff7200;
+    font-size: 50px;
+    font-family: Arial,20px;
+    float: left;
+    
+
+}
+.menu{
+
+    margin: auto;
+    width: 500px;
+    float:left;
+    height: 70px;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+
+}
+ul li{
+    list-style: none;
+    margin-left:62px ;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+
+    text-decoration: none;
+    color:#fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    font-size: 20px;
+}
+ul li a:hover{
+
+    color:#ff7200;
+}
+
+
+.middle-section {
+ margin: auto;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+}
+
+.search-bar {
+ 
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 40px 0px 0px 40px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  min-width: 450px;
+  margin-left: 50px;
+}
+
+.search-bar::placeholder {
+  font-size: 16px;
+}
+
+.search-button {
+  min-height: 36px;
+  min-width: 66px;
+  background-color:#ff7200 ;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(192, 192, 192);
+  margin-left: -1px;
+  margin-right: 10px;
+  border-radius: 0px 40px 40px 0px;
+}
+
+.search-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.search-button .tooltip {
+  position: absolute;
+  background-color: #ff7200;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+  border-radius: 0 40px 40px 0;
+}
+
+.search-button:hover .tooltip{
+  opacity: 1;
+}
+
+.search-icon {
+  height: 25px;
+}
+
+
 .blog-heading{
     margin-top: 50px;
     display: flex;
@@ -61,6 +199,7 @@ body{
   
 
 }
+
 .blog-box{
     width: 350px;
     background-color: #ffffff;
@@ -117,6 +256,9 @@ margin: 20px 0px;
     color:#f33c3c;
     transition: all ease 0.3s;
 }
+.blog-text:has(+ .blog-text a:checked){
+    max-height: none;
+}
 @media(max-width:1250px){
 
     .blog-box{
@@ -139,103 +281,29 @@ margin: 20px 0px;
 #blog{
     padding: 20px;
 }
-    
 }
 
+.firstlesson{
+width: 100%;
+height: 90%;
 
-
-.navbar{
-    width: 1200px;
-    height: 75px;
+}
+.firstimage{
     margin: auto;
-    padding-top: 40px;
-}
-.icon{
-    width: 200px;
-    float: left;
-    height: 70px;
-
-}
-.logo{
-    color:#ff7200;
-    font-size: 50px;
-    font-family: Arial,20px;
-    float: left;
-    
-
-}
-.menu{
-
-
-    width: 400PX;
-    float:left;
-    height: 70px;
-}
-ul{
-    float:left;
-    display: flex;
-    justify-content: center ;
-    align-items: center;
-
-}
-ul li{
-    list-style: none;
-    margin-left:62px ;
-    margin-top: 27px;
-    font-size: 14px;
+    width: 100%;
+    height: 400px;
+   background:url("/images/1.jpg");
+   background-size: cover;
 }
 
-ul li a{
-
-    text-decoration: none;
-    color:#fff;
-    font-family: Arial;
-    font-weight: bold;
-    transition: 0.4s ease-in-out;
-    font-size: 20px;
-}
-ul li a:hover{
-
-    color:#ff7200;
-}
-.search{
-    width: 330px;
-    float:left;
-    margin-left: 270px;
-
-
-}
-.srch{
-
-font-family: 'Times New Roman';
-width: 200px;
-height: 40px;
-background: transparent;
-border: 1px solid, #ff7200 ;
-margin-top: 13px;
-color:#fff;
-border-right: none;
-font-size: 16px;
-float:left;
-padding:10px;
-border-bottom-left-radius: 5px;
-border-top-left-radius: 5px;
-}
-
-.btn{
-    width: 100px;
-    height: 40px;
-    background: #ff7200;
-    border:2px solid #ff7200;
-    margin-top:13px;
-    color:#fff;
-    font-size: 15px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-}
-.btn:focus{
-    outline:none;
-}
-.srch:focus{
-    outline:none;
+.firstext{
+    margin: auto;
+    width: 1200px;
+    height: 800px;
+   background:#fff;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align:justify;
+   font-size: larger;
+   
+   
 }

@@ -107,6 +107,7 @@ float:left;
 padding:10px;
 border-bottom-left-radius: 5px;
 border-top-left-radius: 5px;
+border-radius: 40px 0px 0px 40px;
 }
 
 .btn{
@@ -119,6 +120,7 @@ border-top-left-radius: 5px;
     font-size: 15px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
+    border-radius: 0px 40px 40px 0;
 }
 .btn:focus{
     outline:none;
@@ -140,7 +142,7 @@ section{
 .container-image{
     width: 100%;
     max-width: 980px;
-    background:linear-gradient(to top, rgba(250, 245, 245, 0.5)50%,rgba(211, 206, 206, 0.5)50%) ;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -169,8 +171,35 @@ section{
 
 
 .img{
-    padding:10px 10px 10px 0px;
-    width: 350px;
+   
+    width: 400px;
     height: 500px;
 
+}
+article{
+margin: auto;
+font-family:Georgia, 'Times New Roman', Times;
+text-align:justify;
+text-align:justify;
+padding:20px 20px 20px 20px;
+color:#fff;
+
+
+}
+article p{
+    padding-top: 10px;
+
+}
+article h1,h2,h3{
+    padding-top:20px;
+    font-family:poppins;
+    color: black;
+    
+   }
+article blockquote{
+ padding-top:20px;
+ font-family:poppins;
+ color: blue;
+ font-size: 17px;
+ 
 }

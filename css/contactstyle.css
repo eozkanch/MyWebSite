@@ -12,7 +12,7 @@
    position: relative;
    min-height: 100vh;
    background:linear-gradient(to top, rgba(0,0,0,1)50%,rgba(0,0,0,1)50%) ;
-   padding: 50px 100px;
+   
    display: flex;
    justify-content: center;
    align-items: center;
@@ -34,10 +34,11 @@
 }
 
 .contact .content{
-   padding-left: 200px;
-    padding-top: 200px;
+
+   padding-top: 100px;
     max-width: 800px;
     text-align: center;
+    padding: auto;
 }
 .contact .content h2{
     font-size:36px;
@@ -165,7 +166,7 @@ display: flex;
 
 @media  (max-width: 991px){
 
-    .contact{
+.contact{
         padding:50px;
     }
 .container{
@@ -182,10 +183,11 @@ display: flex;
 }
 
 .navbar{
+    
     width: 1200px;
     height: 75px;
-    margin: auto;
-    margin-top: -550px;
+    margin-top: -350px;
+  
 }
 .icon{
     width: 200px;
@@ -198,31 +200,47 @@ display: flex;
     font-size: 50px;
     font-family:  TheSans,sans-serif,20px;
     float: left;
-    padding-top: 2px;
+    
 
 }
 .menu{
 
 
-    width: 400PX;
+    width: 400px;
     float:left;
     height: 70px;
+    margin: auto;
 }
-ul{
+.menu img{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    margin: auto;
+    margin-top: -35px;
+    margin-bottom: 10px;
+    
+  
+}
+.menu ul{
     float:left;
     display: flex;
     justify-content: center ;
     align-items: center;
+   
 
 }
-ul li{
+.menu ul li{
     list-style: none;
     margin-left:62px ;
     margin-top: 27px;
     font-size: 14px;
+    position: relative;
+    
 }
 
-ul li a{
+.menu ul li a{
 
     text-decoration: none;
     color:#fff;
@@ -231,10 +249,26 @@ ul li a{
     transition: 0.4s ease-in-out;
     font-size: 20px;
 }
-ul li a:hover{
+.menu ul li :hover{
 
     color:#ff7200;
 }
+ .menu ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #ff7200;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+   
+
+}
+.menu ul li:hover::after{
+    width: 100%;
+}
+
 .search{
     width: 330px;
     float:left;
@@ -257,6 +291,7 @@ float:left;
 padding:10px;
 border-bottom-left-radius: 5px;
 border-top-left-radius: 5px;
+border-radius: 40px 0px 0px 40px;
 }
 
 .btn{
@@ -269,6 +304,7 @@ border-top-left-radius: 5px;
     font-size: 15px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
+    border-radius: 0px 40px 40px 0;
 }
 .btn:focus{
     outline:none;

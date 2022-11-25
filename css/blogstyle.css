@@ -13,9 +13,10 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: poppins;
-    background-color: #2779a7;
+    background: linear-gradient(90deg, rgba(19,105,31,1) 0%, rgba(97,206,112,1) 50%, rgba(2,161,227,1) 100%);
 }
 #blog{
+    margin-top:50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,6 +40,8 @@ body{
 }
 
 .navbar{
+    
+    
     position: fixed;
     top: 0;
     left: 0;
@@ -48,10 +51,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 1200px;
-    height: 75px;
+    width: 1400px;
+    height: 100px;
     margin: auto;
     padding-top: 40px;
+    
+    background: transparent,linear-gradient(90deg, rgba(19,105,31,1) 0%, rgba(97,206,112,1) 50%, rgba(2,161,227,1) 100%);
 }
 .icon{
     margin: auto;
@@ -63,8 +68,10 @@ body{
 .logo{
     color:#ff7200;
     font-size: 50px;
-    font-family: Arial,20px;
     float: left;
+    margin: auto;
+    height: 70px;
+    padding-top:0;
     
 
 }
@@ -102,6 +109,8 @@ ul li a:hover{
 
     color:#ff7200;
 }
+
+
 
 
 .middle-section {
@@ -163,7 +172,7 @@ ul li a:hover{
   transition: opacity 0.15s;
   pointer-events: none;
   white-space: nowrap;
-  border-radius: 0 40px 40px 0;
+  border-radius: 0px 40px 40px 0;
 }
 
 .search-button:hover .tooltip{
@@ -176,7 +185,7 @@ ul li a:hover{
 
 
 .blog-heading{
-    margin-top: 50px;
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -196,6 +205,7 @@ ul li a:hover{
     align-items: center;
     margin: 20px 0px;
     flex-wrap: wrap;
+    
   
 
 }
@@ -205,6 +215,9 @@ ul li a:hover{
     background-color: #ffffff;
     border:1px solid #ececec;
     margin: 20px ;
+    box-sizing: border-box;
+    color:rgb(68, 68, 68);
+   
 }
 
 .blog-img{
@@ -221,6 +234,7 @@ ul li a:hover{
     padding: 30px;
     display: flexbox;
     flex-direction: column;
+  
 }
 .blog-text span{
     color:f33c3c;
@@ -237,8 +251,6 @@ ul li a:hover{
     transition: all ease o.3s;
 }
 .blog-text  p{
-
-color: #9b9b9b;
 font-size:0.9rem;
 display:-webkit-box;
 -webkit-line-clamp: 3;
@@ -246,6 +258,8 @@ display:-webkit-box;
 overflow: hidden;
 text-overflow: ellipsis;
 margin: 20px 0px;
+font-family: Georgia, serif;
+color:rgb(68, 68, 68);
 
 }
 .blog-text a{
@@ -303,7 +317,49 @@ height: 90%;
    background:#fff;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    text-align:justify;
-   font-size: larger;
+   padding-top:50px;
+   padding-left:50px;
+   padding-right: 50px;
    
-   
+}
+h1,h2,h3,p,blockquote{
+    padding-top:20px;
+    font-family:poppins;
+    
+}
+
+.secondimage{
+    margin: auto;
+    width: 100%;
+    height: 400px;
+   background:url("/images/2.jpg");
+   background-size: cover;
+}
+.thirdimage{
+    margin: auto;
+    width: 100%;
+    height: 400px;
+   background:url("/images/3.jpg");
+   background-size: cover;
+}
+.forthimage{
+    margin: auto;
+    width: 100%;
+    height: 400px;
+   background:url("/images/4.jpg");
+   background-size: cover;
+}
+.fifthimage{
+    margin: auto;
+    width: 100%;
+    height: 400px;
+   background:url("/images/5.jpg");
+   background-size: cover;
+}
+.sixthimage{
+    margin: auto;
+    width: 100%;
+    height: 400px;
+   background:url("/images/6.jpg");
+   background-size: cover;
 }

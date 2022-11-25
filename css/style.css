@@ -62,6 +62,7 @@
     display: flex;
     justify-content: center ;
     align-items: center;
+   
 
 }
 .menu ul li{
@@ -69,6 +70,8 @@
     margin-left:62px ;
     margin-top: 27px;
     font-size: 14px;
+    position: relative;
+    
 }
 
 .menu ul li a{
@@ -80,10 +83,26 @@
     transition: 0.4s ease-in-out;
     font-size: 20px;
 }
-.menu ul li a:hover{
+.menu ul li :hover{
 
     color:#ff7200;
 }
+ .menu ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #ff7200;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+   
+
+}
+.menu ul li:hover::after{
+    width: 100%;
+}
+
 .search{
     width: 330px;
     float:left;
@@ -106,6 +125,7 @@ float:left;
 padding:10px;
 border-bottom-left-radius: 5px;
 border-top-left-radius: 5px;
+border-radius: 40px 0px 0px 40px;
 }
 
 .btn{
@@ -118,6 +138,7 @@ border-top-left-radius: 5px;
     font-size: 15px;
     border-bottom-left-radius: 5px;
     border-top-left-radius: 5px;
+    border-radius: 0px 40px 40px 0;
 }
 .btn:focus{
     outline:none;
@@ -273,7 +294,7 @@ color:#ff7200
 
 footer{
 
-      background-color: #333333;
+      background-color: #283646;
     padding:50px 0px;
     font-family:  TheSans,sans-serif;
  
@@ -284,9 +305,10 @@ footer{
     width: 100%;
     max-width: 980px;
     margin: auto;
- 
+  
   
 }
+
 
 .footer-heading h3,
 .footer-heading h4{
@@ -308,16 +330,32 @@ footer{
 }
 
    
-   
+.footer-content{
+    position: relative;
+}
 
 .footer-box strong{
     color:#fff;
     font-size: 1rem;
     text-transform: uppercase;
     margin-top: 10px;
+    position: relative;
    
 
 }
+.footer-box strong::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+   
+
+}
+
 .footer-box ul{
     margin-top: 15px;
     list-style: none;

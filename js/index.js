@@ -38,3 +38,25 @@ window.open("blog.html","_self");
 }
 
 }
+
+function login(){
+    var x=document.getElementById("form");
+    
+    if(x.style.display==="block"){
+        x.style.display="none";
+    }else{
+        x.style.display="block"
+    }
+    
+    }
+
+    function register(){
+        var x=document.getElementById("form2");
+        
+        if(x.style.display==="block"){
+            x.style.display="none";
+        }else{
+            x.style.display="block"
+        }
+        
+        }

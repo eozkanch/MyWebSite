@@ -25,16 +25,24 @@
                 <input class="srch" type="search" name="" placeholder="Type To text">
                 <a href="#"><button class="btn">Search</button></a>
             </div>
-
+            
         </div>
             <div class="content">
                 <h1>First  <br><span>My Web</span><br>Site </h1><br>
                 <p>This website is the NGG29-A course 
                     <br> completion project prepared in cooperation 
                     <br>with Swisscom and Power Coders.</p><br>
-                 <button class="cn"><a href="#">JOIN US</a></button>   
-                 
-                 <div class="form">
+
+
+
+                    <button onclick="register()" class="cn"><a href="#">REGISTER</a></button> 
+
+                    <button onclick="login()" class="cn"><a href="#">LOGIN</a></button> 
+                    
+                    
+                    
+                    <!---------form login-->
+                 <div class="form" id="form">
                     <h2>Login Here</h2>
                     <input id="email" type="text" name="email" placeholder="Enter Email ">
                     <!----js  email-->
@@ -46,15 +54,39 @@
 
 
                     <p class="link">Don't have an account<br>
-                    <a href="#">Sign up</a></p>
-                    <p class="liw">Log in</p>
+                    <p id="sign" onclick="register()" >Sign up</p></p>
+                    
+                 </div>
+
+                    <!---------form register-->
+                 <div class="form2" id="form2">
+                    <h2>Register Here</h2>
+                    <input id="email" type="text" name="email" placeholder="Enter Email ">
+                    <!----js  email-->
+                    <input id="password" type="password" name="" placeholder="Enter Password ">
+                    <!----js  pass-->
+                   
+                    <button id="login2" class="btnn2">REGISTER</button>
+                    <!----js  pass control run-->
+
+
+                    
                  </div>
                 
+            </div>
+            <div class="bubbles">
+                <img src="images/pbles.png">
+                <img src="images/pbles.png">
+                <img src="images/pbles.png">
+                <img src="images/pbles.png">
+                <img src="images/pbles.png">
+                <img src="images/pbles.png">
+                <img src="images/pbles.png">
             </div>
     </div>
 
 
-
+                        
                     <!---------------footer-------------------------->
 
 

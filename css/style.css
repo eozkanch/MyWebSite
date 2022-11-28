@@ -447,7 +447,7 @@ text-align:center;
 }
 footer{
 
-      background-color: #283646;
+      background-color: #287691;
     padding:50px 0px;
     font-family:  TheSans,sans-serif;
  
@@ -465,7 +465,9 @@ footer{
 
 .footer-heading h3,
 .footer-heading h4{
-    color:#ffffff;
+    color:#fff;
+    font-family: 'Open Sans',sans-serif;
+    
 
 }
 .footer-heading h3{
